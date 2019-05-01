@@ -10,12 +10,16 @@
   	var z = 4;
   	x += y - x++ * z ; 
   	alert("x += y - x++ * z  is equal to "+ x);
+	var x = 6;
 z = -- x - y * 5 ;
 alert(" z = -- x - y * 5   is equal to "+ z); 
+var z = 4;
 y /= x + 5 % z ; 
-alert(" y /= x + 5 % z is equal to "+ y);  
+alert(" y /= x + 5 % z is equal to "+ y); 
+var y = 15;
 z = x++ + y * 5 ; 
 alert(" z = x++ + y * 5   is equal to "+ z); 
+var z = 4;
 x = y - x++ * z ; 
 alert("x = y - x++ * z  is equal to "+ x);
 
